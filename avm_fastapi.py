@@ -781,7 +781,7 @@ def dev_token():
         {"sub": "dev-user", "exp": int(time.time()) + 3600},
         SECRET_KEY, algorithm=ALGORITHM,
     )
-    return {"token": token, "note": "Development only – remove before deploying"}
+    return {"token": token, "note": "no work to do, need meeting"}
 
 
 # =================================================================
